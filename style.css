@@ -1,0 +1,55 @@
+.forma {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    border: 1px solid black;
+    width: 500px;
+    height: auto;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.tekst {
+    width: 100%;
+    grid-column: 1/2;
+}
+
+.input {
+    grid-column: 2/-1;
+}
+
+#imeIPrezime {
+    width: 90%;
+}
+
+.checkboxoviLayOut {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.flexCheckBox {
+    display: flex;
+    gap: 3px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    color: white;
+    background-color: black;
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.rezultat {
+    border: 1px solid black;
+    width: 250px;
+    height: auto;
+}
